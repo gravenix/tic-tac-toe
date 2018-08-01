@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-05-22, 18:04:50
+    Author     : Bartek
+*/
+
+div.center{
+    width: 100%;
+}
+#main{
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: 0px; top: 0px;
+    right: 0px; 
+}
+#controls{
+    margin: auto;
+    width: 220px;
+    text-align: center;
+    position: relative;
+    left: 0px; right: 0px;
+}
+#controls input, #controls button{
+    width: 200px;
+    margin-bottom: 1px;
+}
+#controls input[type="radio"]{
+    width: auto;
+}
+h2{
+    position: relative;
+    text-align: center;
+    left: 0px; right: 0px;
+    bottom: 0px;
+    font-size: 20px;
+    font-family: Calibri;
+}
+html, body{
+    width: calc(100% - 8px);
+}
