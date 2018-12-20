@@ -61,6 +61,7 @@ var Game = {
             if(Game.playing==1) Graphics.drawCircle(Game.draw, t[0], t[1]);
             else Graphics.drawCross(Game.draw, t[0], t[1]);
             if(Game.check()==Game.playing){
+                Game.turn=-1;
                 Graphics.drawLine(Game.draw, Game.win1[0]+1, Game.win1[1]+1,
                         Game.win2[0]+1, Game.win2[1]+1);
                 setTimeout(function(){
