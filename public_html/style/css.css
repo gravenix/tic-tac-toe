@@ -29,9 +29,16 @@ div.center{
 #controls input, #controls button{
     width: 200px;
     margin-bottom: 1px;
+    outline: 0px;
+    background-color: #eee;
+    border: 1px solid gray;
 }
 #controls input[type="radio"]{
     width: auto;
+}
+#controls button{
+    background-color: #ddd;
+    height: 20px;
 }
 h2{
     position: relative;
@@ -43,4 +50,6 @@ h2{
 }
 html, body{
     width: calc(100% - 8px);
+    background-color: #eee;
+    font-family: Calibri;
 }
